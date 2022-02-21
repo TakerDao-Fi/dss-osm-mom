@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 /// OsmMom -- governance interface for the OSM
 
 // Copyright (C) 2019 Maker Ecosystem Growth Holdings, INC.
@@ -15,7 +17,7 @@
 // You should have received a copy of the GNU Affero General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-pragma solidity >=0.5.12;
+pragma solidity >=0.6.12;
 
 interface OsmLike {
     function stop() external;

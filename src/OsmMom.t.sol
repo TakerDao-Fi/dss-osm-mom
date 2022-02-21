@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 // Copyright (C) 2019 Maker Ecosystem Growth Holdings, INC.
 //
 // This program is free software: you can redistribute it and/or modify
@@ -13,11 +15,11 @@
 // You should have received a copy of the GNU Affero General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-pragma solidity >=0.5.12;
+pragma solidity >=0.6.12;
 
 import "ds-test/test.sol";
 
-import "osm/osm.sol";
+import "dss-osm/osm.sol";
 import "./OsmMom.sol";
 
 contract OsmMomCaller {
